@@ -1,11 +1,9 @@
-def fizzbuzz(n)
-  if n % 5 == 0 && n % 3 == 0
-    return "FizzBuzz"
-  elsif  n % 5 == 0
-    return "Buzz"
-  elsif n % 3 == 0
-    return "Fizz"
-  else   return nil
-  end
+def fizzbuzz(number)
+if number%15==0
+  "FizzBuzz"
+elsif number%5==0
+   "Buzz"
+ elsif number%3==0
+    "Fizz"
 end
-puts fizzbuzz(7)
+end
